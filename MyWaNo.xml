@@ -1,0 +1,35 @@
+<WaNoTemplate>
+    <WaNoMeta>
+        <Author>
+            <Name> J. Schaarschmidt </Name>
+        </Author>
+
+        <Description>
+            This is a Wano Template
+        </Description>
+
+        <Keyword>Template</Keyword>
+    </WaNoMeta>
+
+    <WaNoRoot name="MyWaNo">
+        <WaNoFile logical_filename="input.txt" name="Input File">Some input file</WaNoFile>
+        <WaNoDictBox name="General Settings">
+            <WaNoChoice name="Print">
+                <Entry id="0" chosen="True" >Text</Entry>
+                <Entry id="1">Number</Entry>
+            </WaNoChoice>
+            <WaNoString name="Text"></WaNoString>
+            <WaNoFloat name="Number">10</WaNoFloat>
+        </WaNoDictBox>
+    </WaNoRoot>
+
+    <WaNoExecCommand>bash ./script.sh</WaNoExecCommand>
+
+    <WaNoInputFiles>
+        <WaNoInputFile logical_filename="script.sh">script.sh</WaNoInputFile>
+    </WaNoInputFiles>
+
+    <WaNoOutputFiles>
+        <WaNoOutputFile>output.txt</WaNoOutputFile>
+    </WaNoOutputFiles>
+</WaNoTemplate>
