@@ -1,0 +1,15 @@
+{
+    "workflow_environment":"SimStack",
+    "title": "MyWaNo",
+    "description": "This is a WaNo Template",
+    "authors": [
+        "J. Schaarschmidt"
+    ],
+    "version": "0.0.1",
+    "logo": "MyWaNo.png",
+    "keywords": [
+        "SimStack",
+        "WaNo",
+        "template"
+    ]
+}
